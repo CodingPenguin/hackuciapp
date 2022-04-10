@@ -5,7 +5,7 @@ function Petr() {
 
     return (
         <div className='petr-container'>
-            <img src='petr.png'></img>
+            <img src='petr.png' alt='PETR!'></img>
         </div>
     );
 };
