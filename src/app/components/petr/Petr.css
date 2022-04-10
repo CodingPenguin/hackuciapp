@@ -1,0 +1,20 @@
+.petr-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+img {
+    height: 40%;
+}
+
+@media (max-width: 1000px) {
+    .petr-container {
+        height: 50%;
+        width: 100%;
+    }
+}

@@ -1,0 +1,20 @@
+#root, .app {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  background-image: linear-gradient(to right, #ff7b5c, #ff6c81);
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media (max-width: 1000px) {
+  .app {
+    flex-direction: column;
+    padding-top: 10%;
+  }
+}

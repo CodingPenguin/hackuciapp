@@ -1,0 +1,88 @@
+.card-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.card {
+  background: white;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0px 12px 8px rgb(0 0 0 / 38%);
+  height: auto;
+  padding: 2.5% 5% 2.5% 5%;
+  width: 40%;
+}
+
+h1 {
+    color: black;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.formLabel {
+  text-align: left;
+  padding: 2%;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.formTextbox {
+  border: 2px solid rgb(97, 97, 97);
+  border-radius: 10px;
+  padding: 3%; 
+}
+
+textarea.funFact {
+    resize: vertical;
+}
+
+.input-group.fun {
+    margin-bottom: 17.5%;
+}
+
+span {
+    color: red;
+    padding: 1%;
+    text-align: left;
+}
+
+.pull-right {
+    display: flex;
+    justify-content: right;
+}
+
+.submit {
+    width: 35%;
+    font-size: 16px;
+    padding: 3%;
+    background: linear-gradient(to bottom left, #ff7b5c, #ff6c81);
+    color: white;
+    border-radius: 16px;
+    border: none;
+}
+
+.submit:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+    .card-container {
+        height: 50%;
+        width: 100%;
+    }
+}
