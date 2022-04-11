@@ -15,6 +15,7 @@ Current Year: 1st Year
 
 
 ## General Questions
+
 Responses can be however long or short as you like!
 
 **Why do you want to join Hack at UCI, and what do you hope to gain from it?**
@@ -38,7 +39,7 @@ The Tech Team is looking for general developers. They will need to coordinate wi
 
 **If you have a personal website, please link it**: No personal website.
 
-**escribe a project you worked on that you are proud of. What was your process to build it? What did you learn from it? What would you have improved on if you had more time? If possible, please add project link (Github repo, website, etc).**
+**Describe a project you worked on that you are proud of. What was your process to build it? What did you learn from it? What would you have improved on if you had more time? If possible, please add project link (Github repo, website, etc).**
 
 One of the projects I am most proud of is a webapp called _Sentysis_, a fusion of the phrase sentiment analysis. It was my first major project, and the purpose of it is to gather useful metrics of a particular YouTube video, from its comments. 
 
@@ -48,10 +49,10 @@ If I had more time, I would have tried to reduce the response time (it's around 
 
 I was so passionate about this project that I decided that for my high school senior AP Research paper, I would use sentiment analysis as my topic, with the webapp being the "algorithm" that I used to create my research study with. View "Sentysis.pdf" to view the paper. Linked [here](https://github.com/CodingPenguin/sentysis_angular) and [here](https://github.com/CodingPenguin/sentysis_flask) is the code for the frontend and backend, respectively, and [here](sentysis-angular.herokuapp.com) is access to the webapp (if a CORS error is returned, ensure that the link does not have http or https in it. Just the sentysis-angular.herokuapp.com).
 
-**Link to Deliverable GitHub Repo**: If you're reading this, you're already at the GitHub repo... [Hack at UCI Tech Deliverable](https://github.com/CodingPenguin/hackuciapp)
+**Link to Deliverable GitHub Repo**: 
 
-For the Tech Deliverable, there is one part that must be done and submitted on this form. The requirements can be found here:
- https://tinyurl.com/hack22-23deliverable-tech
+If you're reading this, you're already at the GitHub repo... [Hack at UCI Tech Deliverable](https://github.com/CodingPenguin/hackuciapp)
 
 **Submission Details**:
+
 The submission should be a link to the GitHub repo of the project you built to address the deliverable.
