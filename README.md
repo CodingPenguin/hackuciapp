@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Hack UCI Application | Tech Deliverable | Danny Nguyen
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**First Name**: Danny
 
-## Available Scripts
+**Last Name**: Nguyen
 
-In the project directory, you can run:
+**Resume**: See "Resume.pdf"
 
-### `npm start`
+**UCI Email Address**: dannyhn5@uci.edu
+Current Year: 1st Year
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Graduation Quarter & Year**: Spring 2024
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Can you make time for weekly two-hour meetings as well as weekly one-hour team specific meetings (with absences allowed for valid excuses)? General and team-specific meetings generally only last one-hour.**<br />Yes!
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## General Questions
+Responses can be however long or short as you like!
 
-### `npm run build`
+**Why do you want to join Hack at UCI, and what do you hope to gain from it?**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I joined Hack at UCI has a hacker because outside of the computer science theory that I learn in my coursework, I wanted to branch out and collaborate with others by learning modern technologies through hackathons. After my first year of doing hackathons with Hack at UCI (placing 2nd in ZotHacks and competing in HackUCI), I want to be able to be part of the organization that helped me to pursue my passion of software with others.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Why are you a good fit for Hack at UCI? What qualities do you possess that you think will help this organization?**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+I believe I am a good fit for Hack at UCI because I truly enjoy assisting and collaborating with others, no matter their level of experience. To see just one person have a *Eureka!* moment because of how I helped them makes me happy. And because of this, I have worked countlessly with others on projects (whether that be software or not) so that we can learn together. 
 
-### `npm run eject`
+As I am applying for the Tech department, I want to give some context to my portfolio: <br />
+Though I am very excited to mentor or teach others, I believe that my development stack is well-refined enough to help Hack at UCI's
+software team. I have built numerous webapps, using the React/Angular, Flask, MongoDB stack, while having proficient knowledge in Node, Express, and Svelte. Because of my development experience, I have also learned how to effectively use version control (aka git) and how to deploy webapps through Heroku.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Departments Applying To**: Tech
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Tech Team Application 
+The Tech Team is looking for general developers. They will need to coordinate with other teams to add new features and fixes to the website for receiving student applications and updating event information. In addition, the Tech Team will work on internal tools that can improve the productivity and efficiency of other departments
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**If you have a GitHub, please link it**: [CodingPenguin](https://github.com/CodingPenguin/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**If you have a personal website, please link it**: No personal website.
 
-## Learn More
+**escribe a project you worked on that you are proud of. What was your process to build it? What did you learn from it? What would you have improved on if you had more time? If possible, please add project link (Github repo, website, etc).**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+One of the projects I am most proud of is a webapp called _Sentysis_, a fusion of the phrase sentiment analysis. It was my first major project, and the purpose of it is to gather useful metrics of a particular YouTube video, from its comments. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+For example, if I wanted to see the comment sentiment of one of my favorite songs, [Blood Sweat & Tears by BTS](https://www.youtube.com/watch?v=hmE9f-TEutc), I could paste the URL into the webapp and submit the search. Returned would be a sample of the most negative comments along with a sample of the most positive comments. In addition, three statistics are shown: an average like count, average sentiment, and standard deviation of the sentiment. 
 
-### Code Splitting
+If I had more time, I would have tried to reduce the response time (it's around 15 seconds, unfortunately), fixed the small errors (mentioned below), and made the UI cleaner. Though, I'm generally satisfied with the result!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+I was so passionate about this project that I decided that for my high school senior AP Research paper, I would use sentiment analysis as my topic, with the webapp being the "algorithm" that I used to create my research study with. View "Sentysis.pdf" to view the paper. Linked [here](https://github.com/CodingPenguin/sentysis_angular) and [here](https://github.com/CodingPenguin/sentysis_flask) is the code for the frontend and backend, respectively, and [here](sentysis-angular.herokuapp.com) is access to the webapp (if a CORS error is returned, ensure that the link does not have http or https in it. Just the sentysis-angular.herokuapp.com).
 
-### Analyzing the Bundle Size
+**Link to Deliverable GitHub Repo**: If you're reading this, you're already at the GitHub repo... [Hack at UCI Tech Deliverable](https://github.com/CodingPenguin/hackuciapp)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+For the Tech Deliverable, there is one part that must be done and submitted on this form. The requirements can be found here:
+ https://tinyurl.com/hack22-23deliverable-tech
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Submission Details**:
+The submission should be a link to the GitHub repo of the project you built to address the deliverable.

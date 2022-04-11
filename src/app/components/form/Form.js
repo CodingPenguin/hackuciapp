@@ -18,6 +18,7 @@ function Form() {
                 draggable: true,
                 progress: undefined,
             });
+            return true;
         }
         else if (status === 'BAD') {
             toast.error('Please try again!', {
@@ -29,6 +30,7 @@ function Form() {
                 draggable: true,
                 progress: undefined,
             });
+            return false;
         }
     }
 
@@ -38,7 +40,10 @@ function Form() {
         fetch(`https://hack-tech-app-endpoint.herokuapp.com/test?name=${data.name}&email=${data.email}&funfact=${data.funFact}`)
         .then(
             response => {
-                showToast(response.statusText);
+                const success = showToast(response.statusText);
+                if (success) {
+                    document.getElementById("form").reset();
+                }
             }
         )
     };
@@ -47,7 +52,7 @@ function Form() {
         <>
             <div className='card-container'>
                 <div className='card'>
-                    <form className='form' onSubmit={handleSubmit(onSubmit)}>
+                    <form id="form" className='form' onSubmit={handleSubmit(onSubmit)}>
                         <h1>Hack UCI Application</h1>
 
                         <div className='input-group'>
