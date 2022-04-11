@@ -5,10 +5,10 @@ import './Form.css';
 
 
 function Form() {
-    const { register, formState: { errors }, handleSubmit } = useForm();
+    const { register, formState: { errors }, handleSubmit, reset } = useForm();
 
     const showToast = status => {
-        if (status === 'OK') {
+        if (status === true) {
             toast.success('Successful!', {
                 position: "top-center",
                 autoClose: 5000,
@@ -18,9 +18,8 @@ function Form() {
                 draggable: true,
                 progress: undefined,
             });
-            return true;
         }
-        else if (status === 'BAD') {
+        else if (status === false) {
             toast.error('Please try again!', {
                 position: "top-center",
                 autoClose: 5000,
@@ -30,20 +29,21 @@ function Form() {
                 draggable: true,
                 progress: undefined,
             });
-            return false;
         }
     }
 
     const onSubmit = data => {
-        console.log(data);
-
         fetch(`https://hack-tech-app-endpoint.herokuapp.com/test?name=${data.name}&email=${data.email}&funfact=${data.funFact}`)
         .then(
             response => {
-                const success = showToast(response.statusText);
-                if (success) {
-                    document.getElementById("form").reset();
-                }
+                console.log(response);
+                showToast(true);
+                reset();
+            }
+        )
+        .catch(
+            error => {
+                showToast(false);
             }
         )
     };
