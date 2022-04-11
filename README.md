@@ -7,7 +7,8 @@
 **Resume**: See "Resume.pdf"
 
 **UCI Email Address**: dannyhn5@uci.edu
-Current Year: 1st Year
+
+**Current Year**: 1st Year
 
 **Graduation Quarter & Year**: Spring 2024
 
